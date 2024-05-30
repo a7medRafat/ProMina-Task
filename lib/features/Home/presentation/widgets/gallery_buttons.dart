@@ -17,19 +17,19 @@ class GalleryButtons extends StatelessWidget {
       children: [
         custom(
           text: 'log out',
-          width: 145.w,
           images: [
-            Image.asset('assets/images/red.png'),
+            Image.asset('assets/images/red.png',width: 28.83.w,height: 32.22.h),
             Image.asset('assets/images/Vector-1.png'),
           ],
           height: 39.85.h,
+          width: 145.w,
           function: () => sl<GalleryCubit>().signOut(context),
         ),
         custom(
             text: 'upload',
             width: 145.w,
             images: [
-              Image.asset('assets/images/upload.png'),
+              Image.asset('assets/images/upload.png',width:31.74.w,height: 28.4.h),
             ],
             height: 39.85.h,
             function: () => MyDialog.show(context, const DialogContent())),

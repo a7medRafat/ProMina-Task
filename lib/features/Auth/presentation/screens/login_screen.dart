@@ -7,8 +7,6 @@ import 'package:promina/features/Auth/cubit/login_states.dart';
 import 'package:promina/features/Auth/presentation/widgets/login.dart';
 import 'package:promina/features/Home/presentation/screens/home_screen.dart';
 import '../../../../app/injuctoin_container.dart';
-import '../../../../core/local_storage/hive_keys.dart';
-import '../../../../core/local_storage/user_storage.dart';
 import '../../../../core/shared_preferances/cache_helper.dart';
 import '../../../../core/utils/background.dart';
 import '../../../../core/utils/blury_container.dart';

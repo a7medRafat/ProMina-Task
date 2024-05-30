@@ -28,7 +28,7 @@ class DefaultField extends StatelessWidget {
       obscureText: isPassword,
       style: Theme.of(context)
           .textTheme
-          .bodyMedium!
+          .bodyLarge!
           .copyWith(color: AppColors.body),
       controller: controller,
       decoration: InputDecoration(
@@ -39,7 +39,7 @@ class DefaultField extends StatelessWidget {
         hintText: hint,
         hintStyle: Theme.of(context)
             .textTheme
-            .bodyMedium!
+            .bodyLarge!
             .copyWith(color: AppColors.vGray),
         filled: true,
         fillColor: Colors.white,
